@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {
-    port: 3000,
+    port: 80,
     proxy: {
       "/stubs": "https://smshub.org",
     },
