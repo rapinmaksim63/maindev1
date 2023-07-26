@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = `/stubs/handler_api.php?api_key=${
+const API_URL = `/stubs1/handler_api.php?api_key=${
   import.meta.env.VITE_API_KEY
 }`;
 
