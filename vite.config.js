@@ -6,13 +6,14 @@ export default defineConfig({
   server: {
     port: 3000,
     proxy: {
-      "/stubs1": {
+      "/stubs": {
         "target": "https://smshub.org",
         changeOrigin: true, 
         "headers": {
           "origin": null
-        },
-        "withCredentials": true
+        }
+        //,
+        //"withCredentials": true
       }
     },
   },
