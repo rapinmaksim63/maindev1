@@ -8,8 +8,7 @@ export default defineConfig({
     proxy: {
       "/stubs": {
         "target": "https://smshub.org",
-        changeOrigin: true,
-        secure: false,
+        changeOrigin: true, 
         "headers": {
           "origin": null
         },
