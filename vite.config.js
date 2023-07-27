@@ -9,7 +9,10 @@ export default defineConfig({
       "/stubs": {
         "target": "https://smshub.org",
         changeOrigin: true,
-        secure: false
+        secure: false,
+        "headers": {
+          "origin": null
+        }
       }
     },
   },
