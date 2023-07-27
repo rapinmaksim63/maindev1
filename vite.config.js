@@ -6,7 +6,11 @@ export default defineConfig({
   server: {
     port: 80,
     proxy: {
-      "/stubs": "https://smshub.org",
+      "/stubs": {
+        "target": "https://smshub.org",
+        changeOrigin: true,
+        secure: false
+      }
     },
   },
 
