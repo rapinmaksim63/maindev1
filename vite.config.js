@@ -12,7 +12,8 @@ export default defineConfig({
         secure: false,
         "headers": {
           "origin": null
-        }
+        },
+        "withCredentials": true
       }
     },
   },
